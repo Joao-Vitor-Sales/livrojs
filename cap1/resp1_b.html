@@ -1,0 +1,21 @@
+<!-- Entrada: 
+ - Ler o valor total de uma conta
+ - Ler quantos clientes vão pagar
+Processamento: 
+ - Calcular o valor que cada cliente deve pagar
+Saída:
+ - Informar o valor total da conta
+ - Informar o número de clientes
+ - Informar o valor por cliente -->
+
+<meta charset="UTF-8">
+
+<script>
+    var totalConta = Number(prompt("Insira o valor total da conta: "));
+    var totalClientes = Number(prompt("Insira o total de clientes: "));
+
+    var divisao = totalConta / totalClientes;
+
+    alert("Valor da Conta R$: " + totalConta.toFixed(2) + "\nNúmero de Clientes: " + totalClientes + "\nValor por Cliente R$: " + divisao.toFixed(2));
+
+</script>

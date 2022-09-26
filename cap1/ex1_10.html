@@ -1,0 +1,20 @@
+<!-- Entrada de dados:
+ - Inserir quantidade de dias
+ - Inserir quantidade de horas
+ Processamento de dados: 
+ - Pegar a quantidade de dias, multiplicar pelo número de horas que um dia tem.
+ - Somar as horas dos dias com as horas que foram inseridas 
+ Saida de dados: 
+  - Informar o total da viagem em horas -->
+
+<meta charset="UTF8">
+
+<script>
+    var dias = Number (prompt("Número de dias: "));
+    var horas = Number (prompt("Número de horas: "));
+    var converteDias = dias * 24;
+    var totalHoras = converteDias + horas;
+
+    alert("Total de horas: " + totalHoras);
+    
+</script>
