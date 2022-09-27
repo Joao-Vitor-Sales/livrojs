@@ -10,4 +10,4 @@ function mostrarOla() {
 var mostrar = document.getElementById("mostrar");
 // registra para o botão "mostrar"um ouvinte para o evento click, 
 // que ao ser clicado irá chamar a função mostraOla
-mostrar.addEventListener("click", mostraOla);
+mostrar.addEventListener("click", mostrarOla);
