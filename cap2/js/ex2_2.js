@@ -11,7 +11,7 @@ mostrar.addEventListener("click", exibirFilme);
 
 
 
-// var inDuracao = document.getElementById("inDuracao");
+// var inDuracao = document.getElementById("inDuracao"); FALTOU O .VALUE
 // var transformationHoras = inDuracao / 60;
 // var transformationMinutos = inDuracao % 60;
 // var duracao = transformationHoras + "hora(s)" + tranformationMinutos + "minuto(s)";
