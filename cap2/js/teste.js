@@ -3,7 +3,7 @@ function exibirFilme() {
     var inDuracao = document.getElementById("inDuracao").value;
     var transformationHoras = inDuracao / 60;
     var transformationMinutos = inDuracao % 60;
-    var duracao = Math.round(transformationHoras) + " hora(s) " + transformationMinutos + " minuto(s)";
+    var duracao = Math.floor(transformationHoras) + " hora(s) " + transformationMinutos + " minuto(s)";
     document.getElementById("outResposta").textContent = titulo + " " + duracao;
 }
 
